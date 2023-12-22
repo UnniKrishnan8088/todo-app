@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  font-family: sans-serif;
+}
+.container {
+  padding-top: 2rem;
+  h2 {
+    text-align: center;
+  }
+  .inputs {
+    margin-top: 2rem;
+    padding: 0 5%;
+    width: 100%;
+
+    form {
+      display: grid;
+      grid-template-columns: 1fr 1fr 100px;
+      gap: 1rem;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      background: rgb(221, 214, 214);
+      border: none;
+      outline: none;
+    }
+  }
+}
+
+.movieDetails {
+  display: grid;
+  grid-template-columns: 1fr 1fr 100px;
+  gap: 1rem;
+  margin-top: 1rem;
+  .item {
+    border: 1px solid grey;
+    padding: 8px;
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+button {
+  color: white;
+  border: none;
+  background: green;
+}
+.delete {
+  color: white;
+  background: red;
+  border: none;
+}
