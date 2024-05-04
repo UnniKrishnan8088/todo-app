@@ -1,4 +1,5 @@
 export default function ListItem({ movie, deleteItem }) {
+  //is github is ready ?
   return (
     <div className="movieDetails">
       <div className="item">
@@ -7,7 +8,9 @@ export default function ListItem({ movie, deleteItem }) {
       <div className="item">
         <p>{movie.movie}</p>
       </div>
-      <button className="delete" onClick={() => deleteItem(movie.id)}>Remove</button>
+      <button className="delete" onClick={() => deleteItem(movie.id)}>
+        Remove
+      </button>
     </div>
   );
 }
